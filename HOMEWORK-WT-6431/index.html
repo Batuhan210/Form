@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <form action="https://formsubmit.co/batuhanbitis64@gmail.com" method="POST">
+      <div>
+        <input
+          class="style"
+          type="text"
+          name="first_name"
+          required
+          placeholder="Name"
+        />
+      </div>
+      <div>
+        <input
+          class="style"
+          type="text"
+          name="last_name"
+          required
+          placeholder="Lastname"
+        />
+      </div>
+      <div>
+        <input
+          class="style"
+          type="email"
+          name="email"
+          required
+          placeholder="Email"
+        />
+      </div>
+      <div>
+        <input
+          class="style"
+          type="number"
+          name="age"
+          required
+          placeholder="Age"
+          min="15"
+          max="70"
+        />
+      </div>
+      <div>
+        <input
+          class="style"
+          type="textarea"
+          name="msg"
+          rows="4"
+          cols="50"
+          placeholder="Your message"
+        />
+      </div>
+      <div>
+        <label for="rate"
+          >How much did you like our site?(between 1 and 5):</label
+        >
+        <input type="range" id="rate" name="rate" min="1" max="5" />
+      </div>
+      <br />
+      <button id="btn" type="submit">Send</button>
+    </form>
+  </body>
+</html>

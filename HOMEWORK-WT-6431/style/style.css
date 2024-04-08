@@ -1,0 +1,38 @@
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.style {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#rate {
+    width: 100%;
+}
+
+#btn {
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 100px;
+    padding: 0.5rem;
+}
+
+#btn:hover {
+    background-color: #07467a;
+}
